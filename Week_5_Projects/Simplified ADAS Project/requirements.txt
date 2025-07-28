@@ -1,0 +1,21 @@
+# Simplified ADAS Project Requirements
+# 
+# Core dependencies for running the Automated Design of Agentic Systems implementation
+
+# Data handling and scientific computing
+numpy>=1.20.0
+
+# Visualization for experiment results
+matplotlib>=3.5.0
+
+# Optional: Enhanced plotting
+seaborn>=0.11.0
+
+# Note: This implementation uses only Python standard library features
+# plus the above packages for numerical operations and visualization.
+# 
+# For a production ADAS system, you might also want:
+# - transformers (for real LLM integration)
+# - torch/tensorflow (for neural network components)  
+# - wandb (for experiment tracking)
+# - ray (for distributed agent search) 
