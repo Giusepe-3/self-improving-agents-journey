@@ -1,0 +1,15 @@
+# Basic dependencies for SEAL-drip data collection
+requests>=2.31.0
+feedparser>=6.0.10
+beautifulsoup4>=4.12.0
+numpy>=1.24.0
+pandas>=2.0.0
+python-dateutil>=2.8.0
+jsonlines>=3.1.0
+tqdm>=4.65.0
+
+# For future Ollama integration
+ollama>=0.1.0
+
+# Optional: for nicer logging
+rich>=13.0.0 
